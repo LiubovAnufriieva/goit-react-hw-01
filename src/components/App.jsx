@@ -1,5 +1,7 @@
-import { Profile } from "./Profile";
+import Profile from "./Profile";
 import userData from "../userData.json";
+import "./App.css";
+
 
 export default function App() {
     return (

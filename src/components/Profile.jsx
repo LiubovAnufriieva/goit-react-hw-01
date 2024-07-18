@@ -1,35 +1,34 @@
-export const Profile = ({
-name,
-tag, 
-location,
-image, 
-stats,
-}) => (
-    <div>
-      <div>
-        <img src={image} alt="User avatar" />
-        <p>{name}</p>
-        <p>{tag}</p>
-        <p>{location}</p>
+
+import css from "./Profile.module.css";
+
+function Profile({ name, tag, location, image, stats: { followers, views, likes} }) {
+    return (
+    <div className={css.container}>
+      <div className={css.profileContainer}>
+        <img className={css.profileAvatar} src={image} alt={`${name} avatar`} />
+        <p className={css.username}>{name}</p>
+        <p className={css.text}>@{tag}</p>
+        <p className={css.text}>{location}</p>
       </div>
     
-      <ul>
-        <li>
-          <span>Followers</span>
-          <span>{stats.followers}</span>
+      <ul className={css.statsList}>
+        <li className={css.statsItem}>
+          <span className={css.statsTitle}>Followers</span>
+          <span className={css.statsValue}>{followers}</span>
         </li>
-        <li>
-          <span>Views</span>
-          <span>{stats.views}</span>
+        <li className={css.statsItem}>
+          <span className={css.statsTitle}>Views</span>
+          <span className={css.statsValue}>{views}</span>
         </li>
-        <li>
-          <span>Likes</span>
-          <span>{stats.likes}</span>
+        <li className={css.statsItem}>
+          <span className={css.statsTitle}>Likes</span>
+          <span className={css.statsValue}>{likes}</span>
         </li>
       </ul>
     </div>
-    
 )   
+}
+export default Profile;
 
 
 

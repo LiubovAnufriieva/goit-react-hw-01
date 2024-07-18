@@ -1,0 +1,66 @@
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+    margin: 0;
+}
+.container {
+   
+    background-color: #fafafa;
+	margin: 0 auto;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.profileContainer {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.profileAvatar {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: darkgray;
+    border: 2px solid black;
+}
+
+.username {
+    font-weight: 700;
+    color: black;
+}
+
+.text {
+    color: gray;
+}
+
+.statsList {
+    display: flex;
+
+}
+
+.statsItem {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    width: 100%;
+    padding: 10px;
+    background-color: darkgray;
+    
+}
+
+.statsTitle {
+    color: black;
+}
+
+.statsValue {
+    color: black;
+    font-weight: 700;
+}
