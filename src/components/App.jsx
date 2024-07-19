@@ -1,7 +1,9 @@
-import Profile from "./Profile/Profile";
-import userData from "../userData.json";
-import friends from "../friends.json";
-import FriendList from "./FriendList/FriendList"
+import Profile from "./profile/Profile"
+import userData from "../userData.json"
+import friends from "../friends.json"
+import transactions from "../transactions.json"
+import FriendList from "./friendList/FriendList"
+import TransactionHistory from "./transactions/TransactionHistory"
 import "./App.css";
 
 
@@ -15,7 +17,10 @@ export default function App() {
           image={userData.avatar}
           stats={userData.stats}
         />
+
         <FriendList friends={friends} />
+
+        <TransactionHistory items={transactions} />
       </>
     );
   }

@@ -1,4 +1,3 @@
-
 import css from "./Profile.module.css";
 
 function Profile({ name, tag, location, image, stats: { followers, views, likes} }) {

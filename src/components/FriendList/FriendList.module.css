@@ -1,27 +1,29 @@
 .friendList {
     list-style: none;
     display: flex;
-    display: flex;
     justify-content: space-between;
-    margin-top: 50px;
-    gap: 4px;
+    margin-bottom: 30px;
 }
 
 .listItem {
+    
     width: 120px;
-    padding: 30px;
+    padding: 32px;
+    padding-right: 20px;
     border: 2px solid black;
     border-radius: 8px;
     background-color: #fff;
+
   }
   
   .name {
     font-size: 26px;
     font-weight: 500;
-    line-height: 0.1;
-    letter-spacing: 0.02em;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    /* line-height: 0.1;
+    letter-spacing: 0.02em; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
   }
 
   .online {

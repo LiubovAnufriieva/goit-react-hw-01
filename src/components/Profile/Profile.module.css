@@ -4,7 +4,7 @@
 	border: 3px solid black;
 	border-radius: 12px;
     width: 500px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -16,17 +16,17 @@
 }
 
 .profileAvatar {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: darkgray;
     border: 3px solid black;
 }
 
 .username {
-    font-weight: 700;
-    font-size: 26px;
-    color: black;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 0.5;
 }
 
 .text {
@@ -35,27 +35,32 @@
 
 .statsList {
     display: flex;
-    gap: 0; 
+    background-color: lightgray;
+   
+    border-top: 2px solid darkgray;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+
 }
 
 .statsItem {
     display: flex;
     flex-direction: column;
-    border: 3px solid gray;
-    border-radius: 12px;
+    border: 1px solid darkgray;
+  
     width: 100%;
-    /* padding: 5px; */
-    background-color: darkgray;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 4px;
+    padding: 40px 8px;
+
 }
 
+  
 .statsTitle {
     color: black;
+    font-size: 18px;
 }
 
 .statsValue {
     color: black;
+    font-size: 18px;
     font-weight: 700;
 }
