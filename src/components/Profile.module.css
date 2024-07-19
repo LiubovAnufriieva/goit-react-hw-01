@@ -43,6 +43,7 @@ p {
 
 .statsList {
     display: flex;
+    
 
 }
 
@@ -51,9 +52,10 @@ p {
     flex-direction: column;
     border: 1px solid gray;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     background-color: darkgray;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 .statsTitle {
