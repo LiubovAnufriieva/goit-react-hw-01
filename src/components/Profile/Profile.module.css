@@ -38,7 +38,7 @@
     display: flex;
     background-color: lightgray;
    
-    border-top: 2px solid darkgray;
+    border-top: 1px solid darkgray;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
 
@@ -47,7 +47,7 @@
 .statsItem {
     display: flex;
     flex-direction: column;
-    border: 1px solid darkgray;
+    border: 0px solid darkgray;
     width: 100%;
     padding: 40px 8px;
 }
