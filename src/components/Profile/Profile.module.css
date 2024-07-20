@@ -21,16 +21,19 @@
     border-radius: 50%;
     background-color: darkgray;
     border: 3px solid black;
+    margin-bottom: 20px;
 }
 
 .username {
     font-weight: 600;
     font-size: 38px;
     line-height: 0.5;
+    margin-bottom: 20px;
 }
 
 .text {
     color: gray;
+    margin-bottom: 20px;
 }
 
 .statsList {
