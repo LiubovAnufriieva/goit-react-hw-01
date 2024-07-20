@@ -3,7 +3,7 @@ import Profile from "./profile/Profile";
 import friends from "../friends.json";
 import FriendList from "./friendList/FriendList";
 import transactions from "../transactions.json";
-import TransactionHistory from "./transactions/TransactionHistory";
+import TransactionHistory from "./new/TransactionHistory";
 
 
 import "./App.css";
