@@ -1,6 +1,6 @@
-import css from "./TransactionHistory.module.css";
+import css from "./TransactionHistory.module.css"
 
-function TransactionHistory({ items }) {
+export default function TransactionHistory({ items }) {
     return (
       <table className={css.table}>
         <thead className={css.thead}>
@@ -21,7 +21,7 @@ function TransactionHistory({ items }) {
           ))}
         </tbody>
       </table>
-    );
+    )
   }
   
-  export default TransactionHistory;
+ 

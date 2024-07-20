@@ -1,6 +1,6 @@
-import css from "./Profile.module.css";
+import css from "./Profile.module.css"
 
-function Profile({ name, tag, location, image, stats: { followers, views, likes} }) {
+export default function Profile({ name, tag, location, image, stats: { followers, views, likes} }) {
     return (
     <div className={css.container}>
       <div className={css.profileContainer}>
@@ -27,7 +27,7 @@ function Profile({ name, tag, location, image, stats: { followers, views, likes}
     </div>
 )   
 }
-export default Profile;
+ 
 
 
 

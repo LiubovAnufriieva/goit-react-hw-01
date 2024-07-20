@@ -1,12 +1,11 @@
-import userData from "../userData.json";
-import Profile from "./profile/Profile";
-import friends from "../friends.json";
-import FriendList from "./friendList/FriendList";
-import transactions from "../transactions.json";
-import TransactionHistory from "./transactions/TransactionHistory";
+import userData from "../userData.json"
+import Profile from "./Profile/Profile"
+import friends from "../friends.json"
+import FriendList from "./FriendList/FriendList"
+import transactions from "../transactions.json"
+import TransactionHistory from "./Transaction/TransactionHistory"
 
-import "./App.css";
-
+import "./App.css"
 
 export default function App() {
     return (
@@ -23,6 +22,6 @@ export default function App() {
 
         <TransactionHistory items={transactions} />
       </>
-    );
+    )
   }
 
