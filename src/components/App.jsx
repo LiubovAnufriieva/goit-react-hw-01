@@ -5,7 +5,6 @@ import FriendList from "./friendList/FriendList";
 import transactions from "../transactions.json";
 import TransactionHistory from "./transactions/TransactionHistory";
 
-
 import "./App.css";
 
 
